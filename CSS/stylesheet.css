@@ -1,0 +1,136 @@
+/**
+Author: Eliakah Kakou
+File: stylesheet.css
+Last modified: 16/10/2019
+*/
+
+body{
+        background-color: #FFFDF9;
+}
+.side{
+    background-color: clear;
+    float: left;
+    width: 20%; 
+    height: 300px; 
+}
+#content{
+    display: table;
+    width: 100%; 
+}
+
+#middle{
+    background-color: clear; 
+    float: left;
+    display: table; 
+    width: 60%; 
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title_header h1 a{
+    text-decoration: none;
+    color: #004000;
+}
+#title_header{
+    width:400px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-color: #004000; 
+    border-style: solid; 
+    border-width: 1%;
+    border-radius: 10px; 
+    margin: inherit;
+    margin-top: 5%; 
+    color: #004000;
+    letter-spacing: 1%;
+    font-family: tahoma;
+
+    
+    
+}
+
+#menu_bar{
+    float:left;
+    width: 100%;
+    height: auto;
+    visibility: hidden;
+}
+
+#menu_bar:hover{
+opacity: .85;
+}
+
+
+#menu {
+    margin: inherit;
+    text-align: center;
+    margin: 30px;
+    
+}
+#menu ul{
+    list-style-type: none;
+}
+#menu ul li{
+    list-style-type: none;
+    display: inline; 
+    list-style-type: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: tahoma;
+    padding: 10px;
+    color: #004000;
+    text-align: center; 
+ 
+}
+
+
+#menu ul li:hover{
+border-bottom: 2px solid #004000;  
+padding-bottom: 2px;
+
+}
+
+@media only screen and (max-width:850px) and (min-width:700px){
+#menu ul li{
+ font-size: 68%;
+}
+    
+}
+
+@media only screen and (max-width:700px){
+   .side{
+    background-color: clear;
+    float: left;
+    width: 12%; 
+    height: 300px; 
+}
+#content{
+    display: table;
+    width: 100%; 
+}
+
+#middle{
+    width:88; 
+
+}
+    
+    #menu{
+        visibility: hidden;
+    }
+    
+    #title_header{
+    margin-left: 25%;
+    padding:0px;
+    width:200px;
+    font-size:55%;
+        
+    
+    }
+    
+    #menu_bar{
+    visibility:visible;
+}
+}
